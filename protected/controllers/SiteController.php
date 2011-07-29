@@ -104,10 +104,7 @@ class SiteController extends Controller
 	
 	public function actionShowLog()
 	{
-		//capture the widget output
 		$output = $this->widget('ext.mongodblogviewer.EMongoDbLogViewer',array(),true);
-		
-		//render the widget into the controllers layout
 		$this->renderText($output);
 	}
 }

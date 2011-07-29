@@ -2,7 +2,7 @@
 return array(
     'title'=>'利用前に登録を行ってください。',
     'elements'=>array(
-		'<div id="required_div"><span class="required">*</span>は必須項目です。</div>',
+    '<div id="required_div"><span class="required">*</span>は必須項目です。</div>',
         'name'=>array(
             'type'=>'text',
             'maxlength'=>150,
